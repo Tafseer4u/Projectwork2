@@ -1,59 +1,62 @@
 ## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+EXPLORING OPENCV FOR AN OCR-ENHANCED VIRTUAL SKETCHPAD
 
 ## About
 <!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+The Air Canvas system utilizes a webcam or a camera module to capture the hand gestures of the user. OpenCV is employed for image processing tasks such as hand detection, tracking, and gesture recognition. By analyzing the movement of the hand in the captured frames, the system can interpret gestures like drawing, erasing, and selecting colors.
 
 ## Features
 <!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+Functional requirements define the specific actions or behaviours that the system must perform to fulfil its intended purpose. These requirements are categorized based on the system's functionalities:
+
+• Hand Tracking: The system should accurately track the user's hand movements in real-time, capturing the positions and orientations of key landmarks such as fingertips and knuckles.
+
+• Gesture Recognition: The system should distinguish between various hand gestures representing different drawing tools and actions, such as brushes, pencils, erasers, and stroke types. 
+
+• Stroke Generation: The system should translate hand gestures into corresponding strokes on the digital canvas, adjusting stroke parameters like thickness, opacity, and color based on gesture dynamics. 
+
+• Text Recognition: The system should incorporate Optical Character Recognition (OCR) to recognize text written in the air and convert handwritten text into editable digital text. 
+
+• User Interface: The system should provide a user-friendly interface that allows users to control various aspects of the drawing process, such as color palettes, layer management, and undo/redo functionality
+
 
 ## Requirements
 <!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+**Software:**
 
-## System Architecture
-<!--Embed the system architecture diagram as shown below-->
+Python: OpenCV primarily functions within Python environments. Ensure you have a compatible Python version installed (typically Python 3.x is recommended).
+OpenCV Library: Install the OpenCV library using a package manager like pip (pip install opencv-python).
+Optional Libraries: Depending on your approach, you might consider additional libraries like NumPy for numerical computations or MediaPipe for advanced hand pose estimation.
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+**Hardware:**
+
+Computer: Any computer capable of running OpenCV and processing video streams should suffice. A webcam is essential for capturing user input.
+Webcam: A webcam with a decent resolution is necessary for accurate fingertip or hand detection. Higher resolutions allow for more precise tracking.
+
 
 
 ## Output
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
 #### Output1 - Name of the output
+![tt](https://github.com/Tafseer4u/Projectwork2/assets/92379906/ee3d0a2c-396e-4af5-a1e2-ddc7e18efd0d)
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
-
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
-
+![undo](https://github.com/Tafseer4u/Projectwork2/assets/92379906/73a7a15f-8ef8-427d-9e96-6216d89bd4ba)
 
 ## Results and Impact
 <!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+AirCanvas encourages creative pursuits and blurs the line between the physical and digital worlds by offering users an easy and immersive virtual canvas. By combining OCR technology, it becomes much more useful as it digitizes printed or handwritten text while sketching.
+Although the goal of AirCanvas is to be a flexible tool, the project's investigation of educational uses highlights how revolutionary it could be for interactive learning.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
 
+
+[1] Saoji, S. U., et al. "Air canvas application using Opencv and numpy in python." IRJET 8.08 (2021). Cai, Z., Xu, J., Liu, W., & Cai, Y. (2017)
+
+[2] RamachandraH, V., et al. "Virtual Air Canvas Using OpenCV and Mediapipe." 2022
+International Conference on Futuristic Technologies (INCOFT). IEEE, 2022..
 
 
 
